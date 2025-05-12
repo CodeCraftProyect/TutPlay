@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TutPlay - Descarga la App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #FFA500, #FFEE88);
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 120px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 10px 20px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-container img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .logo-container span {
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #FFA500;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #FFA500;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #FF6600;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      font-size: 2.4em;
+      margin-bottom: 10px;
+      color: #FF8800;
+    }
+
+    p.description {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      color: #444;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .buttons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 20px;
+      border-radius: 12px;
+      background-color: #fff;
+      border: 2px solid #ffa500;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #ffa500;
+      color: white;
+    }
+
+    .buttons img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="https://www.appcreator24.com/srv/imgs/gen/3579340_ico.png?ts=1747085565" alt="Logo TutPlay" />
+      <span>TutPlay</span>
+    </div>
+    <nav>
+      <a href="desktop.ini">Inicio</a>
+      <a href="https://tut-play-tutgamingyts-projects.vercel.app/">Descarga</a>
+      <a href="desarrolladores.html">Desarrollador</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>TutPlay</h1>
+    <p class="description">TutPlay es la app perfecta para disfrutar de las mejores emisoras cristianas en vivo. Con un diseño moderno y fácil de usar, podrás explorar una gran variedad de radios cristianas de todo el mundo, escuchar música y programas inspiradores, y conectarte con contenido que eleva tu espíritu. ¡Todo lo que necesitas en un solo lugar!</p>
+
+    <div class="buttons">
+      <a href="https://apk.e-droid.net/apk/app3579340-8o5fr0.apk?v=2" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Android">
+        Android
+      </a>
+      <a href="https://aab.e-droid.net/aab/app3579340.aab?v=2" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" alt="iPhone">
+        iPhone
+      </a>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 TutGamingYt | Desarrollado Con Amor </p>
+    </footer>
+  </div>
+
+</body>
+</html>
